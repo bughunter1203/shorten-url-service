@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "bashdb",
+        "request": "launch",
+        "name": "Bash-Debug (current file)",
+        "program": "${file}"
+      },
+      {
+        "type": "bashdb",
+        "request": "launch",
+        "name": "Bash-Debug (main script)",
+        "program": "${workspaceFolder}/scripts/main.sh"
+      }
+    ]
+  }

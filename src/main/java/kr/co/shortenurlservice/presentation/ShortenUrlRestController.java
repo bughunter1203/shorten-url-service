@@ -21,7 +21,7 @@ public class ShortenUrlRestController {
     ShortenUrlRestController(SimpleShortenUrlService simpleShortenUrlService) {
         this.simpleShortenUrlService = simpleShortenUrlService;
     }
-
+    @CrossOrigin(origins = "http://158.247.242.250")
     @RequestMapping(value = "/shortenUrl", method = RequestMethod.POST)
     public ResponseEntity<ShortenUrlCreateResponseDto> createShortenUrl(
             @Valid @RequestBody ShortenUrlCreateRequestDto shortenUrlCreateRequestDto

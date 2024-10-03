@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
       {
+        "type": "java",
+        "name": "test",
+        "request": "launch",
+        "mainClass": "kr.co.shortenurlservice.application.test",
+        "projectName": "shortenurlservice"
+      },
+      {
         "type": "bashdb",
         "request": "launch",
         "name": "Bash-Debug (current file)",
